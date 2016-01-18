@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371B8D9F1C4CB0F9006BC74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B8D9E1C4CB0F9006BC74B /* AppDelegate.swift */; };
+		371B8DA11C4CB0F9006BC74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371B8DA01C4CB0F9006BC74B /* Assets.xcassets */; };
+		371B8DA41C4CB0F9006BC74B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 371B8DA21C4CB0F9006BC74B /* MainMenu.xib */; };
+		371B8DAF1C4CB0F9006BC74B /* LYControllerBindingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B8DAE1C4CB0F9006BC74B /* LYControllerBindingsTests.swift */; };
+		371B8DBA1C4CB0F9006BC74B /* LYControllerBindingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B8DB91C4CB0F9006BC74B /* LYControllerBindingsUITests.swift */; };
+		371B8DC81C4CB132006BC74B /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371B8DC71C4CB132006BC74B /* Note.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		371B8DAB1C4CB0F9006BC74B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371B8D931C4CB0F9006BC74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371B8D9A1C4CB0F9006BC74B;
+			remoteInfo = LYControllerBindings;
+		};
+		371B8DB61C4CB0F9006BC74B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371B8D931C4CB0F9006BC74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371B8D9A1C4CB0F9006BC74B;
+			remoteInfo = LYControllerBindings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		371B8D9B1C4CB0F9006BC74B /* LYControllerBindings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYControllerBindings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		371B8D9E1C4CB0F9006BC74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		371B8DA01C4CB0F9006BC74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		371B8DA31C4CB0F9006BC74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		371B8DA51C4CB0F9006BC74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371B8DAA1C4CB0F9006BC74B /* LYControllerBindingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYControllerBindingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		371B8DAE1C4CB0F9006BC74B /* LYControllerBindingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYControllerBindingsTests.swift; sourceTree = "<group>"; };
+		371B8DB01C4CB0F9006BC74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371B8DB51C4CB0F9006BC74B /* LYControllerBindingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYControllerBindingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		371B8DB91C4CB0F9006BC74B /* LYControllerBindingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYControllerBindingsUITests.swift; sourceTree = "<group>"; };
+		371B8DBB1C4CB0F9006BC74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371B8DC71C4CB132006BC74B /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371B8D981C4CB0F9006BC74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371B8DA71C4CB0F9006BC74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371B8DB21C4CB0F9006BC74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371B8D921C4CB0F9006BC74B = {
+			isa = PBXGroup;
+			children = (
+				371B8D9D1C4CB0F9006BC74B /* LYControllerBindings */,
+				371B8DAD1C4CB0F9006BC74B /* LYControllerBindingsTests */,
+				371B8DB81C4CB0F9006BC74B /* LYControllerBindingsUITests */,
+				371B8D9C1C4CB0F9006BC74B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		371B8D9C1C4CB0F9006BC74B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371B8D9B1C4CB0F9006BC74B /* LYControllerBindings.app */,
+				371B8DAA1C4CB0F9006BC74B /* LYControllerBindingsTests.xctest */,
+				371B8DB51C4CB0F9006BC74B /* LYControllerBindingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		371B8D9D1C4CB0F9006BC74B /* LYControllerBindings */ = {
+			isa = PBXGroup;
+			children = (
+				371B8D9E1C4CB0F9006BC74B /* AppDelegate.swift */,
+				371B8DC71C4CB132006BC74B /* Note.swift */,
+				371B8DA01C4CB0F9006BC74B /* Assets.xcassets */,
+				371B8DA21C4CB0F9006BC74B /* MainMenu.xib */,
+				371B8DA51C4CB0F9006BC74B /* Info.plist */,
+			);
+			path = LYControllerBindings;
+			sourceTree = "<group>";
+		};
+		371B8DAD1C4CB0F9006BC74B /* LYControllerBindingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				371B8DAE1C4CB0F9006BC74B /* LYControllerBindingsTests.swift */,
+				371B8DB01C4CB0F9006BC74B /* Info.plist */,
+			);
+			path = LYControllerBindingsTests;
+			sourceTree = "<group>";
+		};
+		371B8DB81C4CB0F9006BC74B /* LYControllerBindingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				371B8DB91C4CB0F9006BC74B /* LYControllerBindingsUITests.swift */,
+				371B8DBB1C4CB0F9006BC74B /* Info.plist */,
+			);
+			path = LYControllerBindingsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		371B8D9A1C4CB0F9006BC74B /* LYControllerBindings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371B8DBE1C4CB0F9006BC74B /* Build configuration list for PBXNativeTarget "LYControllerBindings" */;
+			buildPhases = (
+				371B8D971C4CB0F9006BC74B /* Sources */,
+				371B8D981C4CB0F9006BC74B /* Frameworks */,
+				371B8D991C4CB0F9006BC74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYControllerBindings;
+			productName = LYControllerBindings;
+			productReference = 371B8D9B1C4CB0F9006BC74B /* LYControllerBindings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		371B8DA91C4CB0F9006BC74B /* LYControllerBindingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371B8DC11C4CB0F9006BC74B /* Build configuration list for PBXNativeTarget "LYControllerBindingsTests" */;
+			buildPhases = (
+				371B8DA61C4CB0F9006BC74B /* Sources */,
+				371B8DA71C4CB0F9006BC74B /* Frameworks */,
+				371B8DA81C4CB0F9006BC74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371B8DAC1C4CB0F9006BC74B /* PBXTargetDependency */,
+			);
+			name = LYControllerBindingsTests;
+			productName = LYControllerBindingsTests;
+			productReference = 371B8DAA1C4CB0F9006BC74B /* LYControllerBindingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		371B8DB41C4CB0F9006BC74B /* LYControllerBindingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371B8DC41C4CB0F9006BC74B /* Build configuration list for PBXNativeTarget "LYControllerBindingsUITests" */;
+			buildPhases = (
+				371B8DB11C4CB0F9006BC74B /* Sources */,
+				371B8DB21C4CB0F9006BC74B /* Frameworks */,
+				371B8DB31C4CB0F9006BC74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371B8DB71C4CB0F9006BC74B /* PBXTargetDependency */,
+			);
+			name = LYControllerBindingsUITests;
+			productName = LYControllerBindingsUITests;
+			productReference = 371B8DB51C4CB0F9006BC74B /* LYControllerBindingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371B8D931C4CB0F9006BC74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yingbo Liu";
+				TargetAttributes = {
+					371B8D9A1C4CB0F9006BC74B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					371B8DA91C4CB0F9006BC74B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 371B8D9A1C4CB0F9006BC74B;
+					};
+					371B8DB41C4CB0F9006BC74B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 371B8D9A1C4CB0F9006BC74B;
+					};
+				};
+			};
+			buildConfigurationList = 371B8D961C4CB0F9006BC74B /* Build configuration list for PBXProject "LYControllerBindings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 371B8D921C4CB0F9006BC74B;
+			productRefGroup = 371B8D9C1C4CB0F9006BC74B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				371B8D9A1C4CB0F9006BC74B /* LYControllerBindings */,
+				371B8DA91C4CB0F9006BC74B /* LYControllerBindingsTests */,
+				371B8DB41C4CB0F9006BC74B /* LYControllerBindingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		371B8D991C4CB0F9006BC74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371B8DA11C4CB0F9006BC74B /* Assets.xcassets in Resources */,
+				371B8DA41C4CB0F9006BC74B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371B8DA81C4CB0F9006BC74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371B8DB31C4CB0F9006BC74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371B8D971C4CB0F9006BC74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371B8D9F1C4CB0F9006BC74B /* AppDelegate.swift in Sources */,
+				371B8DC81C4CB132006BC74B /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371B8DA61C4CB0F9006BC74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371B8DAF1C4CB0F9006BC74B /* LYControllerBindingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371B8DB11C4CB0F9006BC74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371B8DBA1C4CB0F9006BC74B /* LYControllerBindingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		371B8DAC1C4CB0F9006BC74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371B8D9A1C4CB0F9006BC74B /* LYControllerBindings */;
+			targetProxy = 371B8DAB1C4CB0F9006BC74B /* PBXContainerItemProxy */;
+		};
+		371B8DB71C4CB0F9006BC74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371B8D9A1C4CB0F9006BC74B /* LYControllerBindings */;
+			targetProxy = 371B8DB61C4CB0F9006BC74B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		371B8DA21C4CB0F9006BC74B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371B8DA31C4CB0F9006BC74B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		371B8DBC1C4CB0F9006BC74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		371B8DBD1C4CB0F9006BC74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		371B8DBF1C4CB0F9006BC74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LYControllerBindings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingboLiu.LYControllerBindings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		371B8DC01C4CB0F9006BC74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LYControllerBindings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingboLiu.LYControllerBindings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		371B8DC21C4CB0F9006BC74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LYControllerBindingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingboLiu.LYControllerBindingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYControllerBindings.app/Contents/MacOS/LYControllerBindings";
+			};
+			name = Debug;
+		};
+		371B8DC31C4CB0F9006BC74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LYControllerBindingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingboLiu.LYControllerBindingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYControllerBindings.app/Contents/MacOS/LYControllerBindings";
+			};
+			name = Release;
+		};
+		371B8DC51C4CB0F9006BC74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LYControllerBindingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingboLiu.LYControllerBindingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYControllerBindings;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		371B8DC61C4CB0F9006BC74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LYControllerBindingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YingboLiu.LYControllerBindingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYControllerBindings;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371B8D961C4CB0F9006BC74B /* Build configuration list for PBXProject "LYControllerBindings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371B8DBC1C4CB0F9006BC74B /* Debug */,
+				371B8DBD1C4CB0F9006BC74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371B8DBE1C4CB0F9006BC74B /* Build configuration list for PBXNativeTarget "LYControllerBindings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371B8DBF1C4CB0F9006BC74B /* Debug */,
+				371B8DC01C4CB0F9006BC74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		371B8DC11C4CB0F9006BC74B /* Build configuration list for PBXNativeTarget "LYControllerBindingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371B8DC21C4CB0F9006BC74B /* Debug */,
+				371B8DC31C4CB0F9006BC74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		371B8DC41C4CB0F9006BC74B /* Build configuration list for PBXNativeTarget "LYControllerBindingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371B8DC51C4CB0F9006BC74B /* Debug */,
+				371B8DC61C4CB0F9006BC74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 371B8D931C4CB0F9006BC74B /* Project object */;
+}
